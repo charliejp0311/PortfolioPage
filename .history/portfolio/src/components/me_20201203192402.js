@@ -12,7 +12,7 @@ class Me extends Component{
         return(
             <div id="me">
                 {this.state.name}<br />
-                <img src={portfolioPic} alt='Me' width='250' height='375' /><br />
+                <img src={portfolioPic} alt='Me' width='400' height='600' /><br />
                 {this.state.moto}<br />
                 {this.state.career}<br />
                 {this.state.aspiration}
