@@ -3,18 +3,17 @@ import { Component  } from "react";
 class Me extends Component{
     state = {
         name: "Charles Pelton",
-        photo: "",
-        moto: "Continually work on the human in the mirror.",
+        moto: "Continually work on the person in the mirror, in order to change the world.",
         career: "Operations Supervisor, DHL Supply Chain",
         aspiration: "Full stack web developer / Software Engineer"
     }
     render(){
         return(
             <div id="me">
-                {this.state.name}
-                {this.state.photo}
-                {this.state.moto}
-                {this.state.career}
+                {this.state.name}<br />
+                <img src='./images/summer2020.png' alt='Me' /><br />
+                {this.state.moto}<br />
+                {this.state.career}<br />
                 {this.state.aspiration}
             </div>
         )
